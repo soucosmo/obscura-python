@@ -1,0 +1,21 @@
+[project]
+name = "obscura-client"
+version = "0.1.0"
+description = "Python client for Obscura"
+authors = [
+    {name = "Cosmo André",email = "soucosmomoraes@gmail.com"}
+]
+readme = "README.md"
+requires-python = "3.6"
+dependencies = [
+    "requests (>=2.32.3,<3.0.0)"
+]
+
+[tool.poetry]
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.15.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
